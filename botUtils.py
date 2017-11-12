@@ -1,9 +1,6 @@
 import moviepy.editor as mp
 import moviepy.video as mpv
 
-from random import choice
-from os import listdir
-
 def gifToClip(gifPath): 
     gifClip = mp.VideoFileClip(gifPath, target_resolution=[640,640])
     gifClip = mpv.fx.all.loop(gifClip, duration=60)
