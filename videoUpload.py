@@ -130,9 +130,6 @@ class VideoTweet(object):
 
 
   def tweet(self):
-    '''
-    Publishes Tweet with attached video
-    '''
     request_data = {
       'media_ids': self.media_id
     }
