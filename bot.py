@@ -12,7 +12,7 @@ while True:
 
     print "FINALLY ITS sexta feira!!!!!"
     while  datetime.today().hour != 18: 
-        print "Still not HORA DO FINAL DO EXPEDIENTE...")
+        print "Still not HORA DO FINAL DO EXPEDIENTE..."
         sleep(1200)
     videoTweet = VideoTweet(gifToClip("gif/" + choice(listdir("gif/"))))
     videoTweet.upload_init()
