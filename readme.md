@@ -3,7 +3,7 @@
 
 Bot do twitter posta, toda sexta-feira, algum gif de dancinha com a música "Sexta-feira sua linda" ao fundo.Para tanto, utiliza da biblioteca *MoviePy*, onde transforma os gifs em vídeo e adiciona o áudio, e utiliza da API do twitter para twittar.
 
-###Como instalar?
+### Como instalar?
 A instalação (caso queira rodar uma instância do bot), requer: 
 
 + Python 2.7.x
