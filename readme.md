@@ -9,6 +9,7 @@ A instalação (caso queira rodar uma instância do bot), requer:
 + Python 2.7.x
 + MoviePy
 + MP3 da música (não fornecido)
++ Pasta "gif/" com gifs de dancinha :)
 + Arquivo "secrets.py", onde ficam as credenciais da conta. 
 
 ### Licença
